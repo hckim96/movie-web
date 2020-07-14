@@ -1,0 +1,33 @@
+.detail-container {
+    display: flex;
+    width: 950px;
+    height: 700px;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 5%;
+    font-weight: 550;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.detail-loading {
+    align-self: center;
+}
+.detail-notloading-container {
+    align-self: center;
+    display: flex;
+}
+.detail-left {
+    align-self: center;
+    flex: 2;
+}
+.detail-right {
+    align-self: center;
+    flex: 1;
+}
+
+.detail-suggestions {
+    display: flex;
+    flex-wrap: wrap;
+}

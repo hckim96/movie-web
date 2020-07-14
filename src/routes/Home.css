@@ -1,0 +1,23 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.home-header {
+    display: flex;
+    background: palegoldenrod;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.home-title {
+    text-align: center;
+}
+.home-movie-container {
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
